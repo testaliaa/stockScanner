@@ -1,0 +1,121 @@
+#Pane{
+
+
+-fx-background-color : linear-gradient(#5F0A87,#A4508B);
+
+}
+
+
+#SideBar{
+
+-fx-background-color : linear-gradient(#5F72BE,#9921E8
+);
+
+}
+
+#GenerateReport {
+    -fx-background-color: 
+          linear-gradient(#5F72BE,#9921E8);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 5 5 5 5;
+}
+#GenerateReport:hover{
+   -fx-background-color: #383838;
+    -fx-scale-y: 1.1;
+}
+#GenerateReport:hover {
+	-fx-background-color: #383838;
+    -fx-scale-y: 0.99;
+    -fx-scale-x: 0.99;
+}
+
+#ExchangeButtons:hover {
+    -fx-background-color: #383838;
+    -fx-scale-y: 1.1;
+}
+
+#ExchangeButtons:pressed {
+	-fx-background-color: #383838;
+    -fx-scale-y: 0.99;
+    -fx-scale-x: 0.99;
+}
+#ExchangeButtons {
+    -fx-background-color: 
+     linear-gradient(#5F0A87,#A4508B);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 10 10 10;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  linear-gradient(#5F72BE,#9921E8); 
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#ToggleButton {
+    -shrink-animate-on-press: true;
+    -fx-background-color: #228B22;
+    
+}
+#ToggleButton:selected {
+    -fx-background-color: #DC143C;
+}
+
+.slider .track {
+
+    -fx-background-color: linear-gradient(to right, red, yellow,green);
+}
+
+#TextFieldForRating{
+	
+}
+#circle_button{
+				-fx-background-radius: 5em; 
+                -fx-min-width: 25px; 
+                -fx-min-height: 25px;
+                -fx-max-width: 25px; 
+                -fx-max-height: 25px;
+                
+                }
+
+#circle_button1{
+				-fx-background-radius: 5em; 
+                -fx-min-width: 25px; 
+                -fx-min-height: 25px;
+                -fx-max-width: 25px; 
+                -fx-max-height: 25px;
+                
+                }
+#circle_button2{
+				-fx-background-radius: 5em; 
+                -fx-min-width: 25px; 
+                -fx-min-height: 25px;
+                -fx-max-width: 25px; 
+                -fx-max-height: 25px;
+                
+                }
+                
+#circle_button:selected {
+	-fx-outer-border:#DC143C;
+	-fx-inner-border:#DC143C; 
+    -fx-focus-color: #DC143C;
+}
+#circle_button1:selected {
+-fx-outer-border:#DC143C;
+	-fx-inner-border:#DC143C; 
+    -fx-focus-color: #DC143C;}
+#circle_button2:selected {
+-fx-outer-border:#DC143C;
+	-fx-inner-border:#DC143C; 
+    -fx-focus-color: #DC143C;}
+                
